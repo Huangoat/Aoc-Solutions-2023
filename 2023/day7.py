@@ -33,7 +33,7 @@ def p1():
     final  = final[::-1]
     for i,v in enumerate(final):
         total += (i+1)*bids[orgcards.index(v)]
-    print(total)
+    print("PART ONE:", total)
 
 def p2():
     l = [[],[],[],[],[], [],[]]
@@ -69,6 +69,6 @@ def p2():
     final  = final[::-1]
     for i,v in enumerate(final):
         total += (i+1)*nb[nc.index(v)]
-    print(total)
+    print("PART TWO",total)
 p1()
 p2()
